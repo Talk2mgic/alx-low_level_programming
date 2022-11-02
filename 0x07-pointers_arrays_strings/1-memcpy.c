@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stdio.h>
+#include "main"
 
 /**
  * _memcpy - copies n bytes from src to dest
@@ -19,5 +18,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest++;
 		src++;
 	}
-	return (0);
+	return (dest);
 }
